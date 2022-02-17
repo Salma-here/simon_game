@@ -14,3 +14,9 @@ class Tile:
 
     def draw_tile(self):
         pygame.draw.rect(self.screen, self.color, self.rect)
+
+    def toggle_color(self):
+        if self.color in self.settings.tile_dark_colors.values():
+            self.color = self.settings.tile_light_colors[self.tile_num]
+        else:
+            self.color = self.settings.tile_dark_colors[self.tile_num]

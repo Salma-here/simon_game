@@ -27,8 +27,10 @@ class Settings:
         }
         # dictionary for tile colors when lighting up
         self.tile_light_colors = {
-            1: (51, 92, 255),   # light blue
-            2: (107, 255, 33),  # light green
-            3: (255, 38, 38),   # light red
-            4: (255, 251, 38)   # light yellow
+            1: (0, 0, 230),   # light blue
+            2: (62, 184, 0),  # light green
+            3: (255, 0, 0),   # light red
+            4: (255, 255, 8)   # light yellow
         }
+
+
