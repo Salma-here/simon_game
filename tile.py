@@ -2,7 +2,6 @@ import pygame
 
 
 class Tile:
-
     def __init__(self, simon_game, tile_num):
         self.screen = simon_game.screen
         self.screen_rect = simon_game.screen.get_rect()
@@ -20,3 +19,5 @@ class Tile:
             self.color = self.settings.tile_light_colors[self.tile_num]
         else:
             self.color = self.settings.tile_dark_colors[self.tile_num]
+    
+
